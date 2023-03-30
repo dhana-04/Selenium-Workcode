@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNGassignment2.myContactForm">
+      <class name="reUsable_MyContactForm_Time_Assert.MyContactForm">
         <methods>
           <include name="closeBrowser"/>
+          <include name="toCheckForm"/>
           <include name="openBrowser"/>
-          <include name="openMyContactForm"/>
         </methods>
-      </class> <!-- testNGassignment2.myContactForm -->
+      </class> <!-- reUsable_MyContactForm_Time_Assert.MyContactForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

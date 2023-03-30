@@ -9,10 +9,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 public class myContactForm extends BaseClass {
-	
 	@Test 
 	public void openMyContactForm() {
-
+		
 		driver.manage().window().maximize();
 		driver.get("https://www.mycontactform.com/");
 		WebElement login = driver.findElement(By.xpath("//*[@id='user']"));
